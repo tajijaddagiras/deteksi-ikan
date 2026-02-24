@@ -11,7 +11,7 @@ from skimage.feature import graycomatrix, graycoprops
 # ============================================================================
 st.set_page_config(
     page_title="Ikan Benggol",
-    page_icon="🐟",
+    page_icon="https://cdn-icons-png.flaticon.com/512/2271/2271101.png",
     layout="centered"
 )
 
