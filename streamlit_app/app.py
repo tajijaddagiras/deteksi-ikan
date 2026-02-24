@@ -10,7 +10,8 @@ from skimage.feature import graycomatrix, graycoprops
 # KONFIGURASI HALAMAN
 # ============================================================================
 st.set_page_config(
-    page_title="Deteksi Kadar Garam Ikan Benggol",
+    page_title="Ikan Benggol",
+    page_icon="🐟",
     layout="centered"
 )
 
