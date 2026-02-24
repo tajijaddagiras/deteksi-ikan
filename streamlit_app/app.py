@@ -16,6 +16,20 @@ st.set_page_config(
 )
 
 # ============================================================================
+# HIDE STREAMLIT UI (Agar seperti Aplikasi)
+# ============================================================================
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            .stAppDeployButton {display:none;}
+            [data-testid="stHeader"] {display:none;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+# ============================================================================
 # PATH MODEL & SCALER
 # ============================================================================
 import os
